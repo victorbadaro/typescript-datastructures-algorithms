@@ -7,16 +7,13 @@ export class Node<T> {
 		this.next = null;
 	}
 
-
 	public get getValue(): T {
 		return this.value;
 	}
 
-
 	public get getNext(): Node<T> | null {
 		return this.next;
 	}
-
 
 	public set setNext(next: Node<T>) {
 		this.next = next;
