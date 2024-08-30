@@ -2,9 +2,9 @@
 	"name": "typescript-datastructures-algorithms",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
+	"main": "src/stack.ts",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"dev": "tsx watch src/stack.ts"
 	},
 	"keywords": [],
 	"author": "",
@@ -13,6 +13,7 @@
 		"@eslint/js": "^9.9.1",
 		"eslint": "^9.9.1",
 		"globals": "^15.9.0",
+		"tsx": "^4.19.0",
 		"typescript": "^5.5.4",
 		"typescript-eslint": "^8.3.0"
 	}
