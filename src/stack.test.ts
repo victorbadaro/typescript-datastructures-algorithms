@@ -45,4 +45,11 @@ describe('Stack', () => {
 
 		expect(removedNodeValue).toMatch(fourthNodeValue);
 	});
+
+	it('Should return null after calling the pop function when the stack is still empty', () => {
+		const stack = new Stack<string>();
+		const removedNodeValue = stack.pop();
+
+		expect(removedNodeValue).toBeNull();
+	});
 });
