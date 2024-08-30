@@ -9,6 +9,10 @@ export class Stack<T> {
 		this.size = 0;
 	}
 
+	public get getSize(): number {
+		return this.size;
+	}
+
 	public push(value: T): number {
 		const newNode = new Node<T>(value);
 
